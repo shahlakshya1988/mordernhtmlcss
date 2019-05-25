@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Div/Span/Id/Class</title>
+    <style>
+        .card{
+            border:1px solid #ddd;
+        }
+        .card-background{
+            background:#ccc;
+        }
+        .color-blue{
+            color:#ff0000;
+        }
+    </style>
+</head>
+<body>
+<!-- 
+    id should be individual for a page.
+    class can be repeated 
+    div block
+    span inline
+-->
+    <div id="header">
+        <h1>My Website</h1>
+        <p>A Site About Me</p>
+    </div>
+    <ul id="main-nav">
+        <li><a href="#" class="nav-menu"><span class="color-blue">Home</span> Page</a></li>
+        <li><a href="#" class="nav-menu">About</a></li>
+        <li><a href="#" class="nav-menu">Contact</a></li>
+    </ul>
+    <div id="about" class="card">
+        <h3>About</h3>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ratione non corporis sit eligendi maiores qui suscipit odit minus incidunt quibusdam!</p>
+    </div>
+    <div id="contact-info" class="card card-background">
+        <h3>Contact Me</h3>
+        <ul>
+            <li>Address : This is my address</li>
+            <li>Email example@example.com</li>
+        </ul>
+    </div>
+    <div id="footer">
+        <p>&copy; Copyright 2019</p>
+    </div>
+</body>
+</html>

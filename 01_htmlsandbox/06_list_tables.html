@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>List &amp Tables</title>
+</head>
+<body>
+    <h3>Unordered List</h3>
+    <ul>
+        <li>Item 1</li>
+        <li>Item 2</li>
+        <li>Item 3</li>
+        <li>Item 4</li>
+        <li>Item 5</li>
+    </ul>
+    <ul style="list-style: square">
+        <li>Item 1</li>
+        <li>Item 2</li>
+        <li>Item 3</li>
+        <li>Item 4</li>
+        <li>Item 5</li>
+    </ul>
+    <ul style="list-item:disc">
+        <li>Item 1</li>
+        <li>Item 2</li>
+        <li>Item 3</li>
+        <li>Item 4</li>
+        <li>Item 5</li>
+    </ul>
+    <ul class="circle">
+        <li>Item 1</li>
+        <li>Item 2</li>
+        <li>Item 3</li>
+        <li>Item 4</li>
+        <li>Item 5</li>
+    </ul>
+    <ul style="list-style:none">
+        <li>Item 1</li>
+        <li>Item 2</li>
+        <li>Item 3</li>
+        <li>Item 4</li>
+        <li>Item 5</li>
+    </ul>
+    <hr>
+    <h3>Ordered List</h3>
+    <ol>
+        <li>Item 1</li>
+        <li>Item 2</li>
+        <li>Item 3</li>
+        <li>Item 4</li>
+        <li>Item 5</li>
+    </ol>
+    <ol start="3">
+        <li>Item 1</li>
+        <li>Item 2</li>
+        <li>Item 3</li>
+        <li>Item 4</li>
+        <li>Item 5</li>
+    </ol>
+    <ol type="A">
+        <li>Item 1</li>
+        <li>Item 2</li>
+        <li>Item 3</li>
+        <li>Item 4</li>
+        <li>Item 5</li>
+    </ol>
+    <ol type="a">
+        <li>Item 1</li>
+        <li>Item 2</li>
+        <li>Item 3</li>
+        <li>Item 4</li>
+        <li>Item 5</li>
+    </ol>
+    <ol type="i">
+        <li>Item 1</li>
+        <li>Item 2</li>
+        <li>Item 3</li>
+        <li>Item 4</li>
+        <li>Item 5</li>
+    </ol>
+    <ol type="I">
+        <li>Item 1</li>
+        <li>Item 2</li>
+        <li>Item 3</li>
+        <li>Item 4</li>
+        <li>Item 5</li>
+    </ol>
+    <hr>
+    <h3>Nested List</h3>
+    <ul type="disc">
+        <li>
+            Item 1
+        </li>
+        <li>
+            Item 2
+            <ul>
+                <li>
+                    Sub Item 1
+                </li>
+                <li>
+                    Sub Item 2
+                </li>
+                <li>
+                    Sub Item 3
+                    <ul>
+                        <li>
+                            Sub Sub Item 1
+                        </li>
+                        <li>
+                            Sub Sub Item 2
+                        </li>
+                        <li>
+                            Sub Sub Item 3
+                        </li>
+                        <li>
+                            Sub Sub Item 4
+                        </li>
+                        <li>
+                            Sub Sub Item 5
+                        </li>
+                        <li>
+                            Sub Sub Item 6
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    Sub Item 4
+                </li>
+                <li>
+                    Sub Item 5
+                </li>
+                <li>
+                    Sub Item 6
+                </li>
+            </ul>
+        </li>
+        <li>
+            Item 3
+        </li>
+        <li>
+            Item 4
+        </li>
+        <li>
+            Item 5
+        </li>
+        <li>
+            Item 6
+        </li>
+    </ul>
+    <hr>
+    <h3>Tables</h3>
+    <!--  USED FOR REPRESENTING TABULAR DATA-->
+    <table width="100%" border="1" cellpadding="10" cellspacing="20">
+        <caption>This is Table Caption</caption>
+        <thead>
+            <tr>
+                <th>Row / Column</th>
+                <th>Column</th>
+                <th>Column</th>
+                <th>Column</th>
+                <th>Column</th>
+                <th>Column</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Row 1 / Column 1</td>
+                <td>Row 1 / Column 2</td>
+                <td>Row 1 / Column 3</td>
+                <td>Row 1 / Column 4</td>
+                <td>Row 1 / Column 5</td>
+                <td>Row 1 / Column 6</td>
+            </tr>
+            <tr>
+                    <td>Row 2 / Column 1</td>
+                    <td>Row 2 / Column 2</td>
+                    <td>Row 2 / Column 3</td>
+                    <td>Row 2 / Column 4</td>
+                    <td>Row 2 / Column 5</td>
+                    <td>Row 2 / Column 6</td>
+                </tr>
+                <tr>
+                        <td>Row 3 / Column 1</td>
+                        <td>Row 3 / Column 2</td>
+                        <td>Row 3 / Column 3</td>
+                        <td>Row 3 / Column 4</td>
+                        <td>Row 3 / Column 5</td>
+                        <td>Row 3 / Column 6</td>
+                    </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <th>Row / Column</th>
+                <th>Column</th>
+                <th>Column</th>
+                <th>Column</th>
+                <th>Column</th>
+                <th>Column</th>
+            </tr>
+        </tfoot>
+    </table>
+    <!--  USED FOR REPRESENTING TABULAR DATA-->
+</body>
+</html>
