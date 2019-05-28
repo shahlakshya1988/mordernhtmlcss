@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Box Model / Margin / Padding</title>
+    <style>
+        *{
+            margin:0px;
+            padding:0px;
+        }
+        .box{
+            background:#f4f4f4;
+            border:2px solid #777;
+            width:500px;
+            /* padding on all sides */
+            padding:100px;
+            /* padding per side */
+            padding-top:300px;
+            padding-right:200px;
+            padding-bottom:150px;
+            padding-left:100px;
+
+            /* padding short hand top right bottom left */
+            padding:10px 20px 30px 20px;
+
+            /* padding another short had top-bottom left-right */
+            padding:20px 10px;
+            
+            /* margin on all sides */
+            margin:20px;
+        }
+        #box-1{
+            box-sizing: border-box;
+        }
+    </style>
+</head>
+<body>
+    <div id="box-1" class="box">
+        <h3>Box 1</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam, nesciunt incidunt. Eos, quaerat dolore! Quam esse eum omnis similique fugit minima nam expedita molestias ducimus dicta? Praesentium ea sit totam aut, ut delectus porro facilis mollitia ipsa quisquam ipsam voluptas tempora, modi sed soluta sunt at excepturi quis minus quo.</p>
+    </div>
+    <div id="box-2" class="box">
+        <h3>Box 2</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus veritatis commodi illum quaerat, facilis, tenetur dolore laborum maxime enim necessitatibus dicta iste ducimus quas ipsam repellat eius, tempora culpa modi blanditiis inventore rerum. Pariatur nobis dolore minus voluptates ipsam ipsa, inventore, totam necessitatibus eos vel, dignissimos aliquam quaerat neque consequuntur?</p>
+    </div>
+</body>
+</html>

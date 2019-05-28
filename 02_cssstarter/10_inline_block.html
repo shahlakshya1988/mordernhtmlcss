@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Inline &amp; Block Styling</title>
+    <style>
+        li{
+            display: inline-block;
+
+        }
+        li a{
+            padding-right:20px;
+        }
+        img{
+            margin:auto; /* element should be displayed as block */
+            display: block;
+        }
+        .box{
+            background:#f4f4f4;
+            padding:20px;
+            margin-bottom:15px;
+            width:32%;
+            display: inline-block;
+            box-sizing: border-box;
+        }
+    </style>
+</head>
+<body>
+    <ul>
+        <li><a href="#">Technology</a></li>
+        <li><a href="#">Busniess</a></li>
+        <li><a href="#">Fashion</a></li>
+    </ul>
+    <br>
+    <br>
+   
+    <img src="./img/leaf.png" alt="My Image">
+    <img src="./img/leaf.png" alt="My Image">
+    <br>
+    <br>
+    
+    <div class="box">
+        <h3>Heading 1</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam distinctio beatae eius officia id quod ducimus sequi atque aut laboriosam saepe ipsa enim obcaecati nulla voluptatum ut sint, magnam officiis!</p>
+    </div>
+    <div class="box">
+            <h3>Heading 2</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam distinctio beatae eius officia id quod ducimus sequi atque aut laboriosam saepe ipsa enim obcaecati nulla voluptatum ut sint, magnam officiis!</p>
+        </div>
+        <div class="box">
+                <h3>Heading 3</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam distinctio beatae eius officia id quod ducimus sequi atque aut laboriosam saepe ipsa enim obcaecati nulla voluptatum ut sint, magnam officiis!</p>
+            </div>
+</body>
+</html>
