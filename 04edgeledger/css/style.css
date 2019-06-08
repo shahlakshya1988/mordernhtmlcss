@@ -7,6 +7,7 @@
 html,
 body{
     font-family: 'Roboto', sans-serif;
+    line-height: 1.4;
 }
 a{
     text-decoration: none;
@@ -17,6 +18,31 @@ p{
 /* UTILITY CLASSES */
 .text-primary{
     color:#93cb52;
+}
+.l-heading{
+    font-size:4rem;
+    margin-bottom:0.75rem;
+    line-height: 1.1;
+}
+.lead{
+    font-size:1.3rem;
+    margin-bottom:2rem;
+}
+.btn{
+    border:none;
+    display: inline-block;
+    color:#fff;
+    background:#93cb52;
+    padding:0.5rem 2rem;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.btn:hover{
+    background:#7ab436;
+}
+.btn-dark{
+    background:#333;
+    color:#fff;
 }
 /* UTILITY CLASSES */
 /* NAVBAR */
@@ -45,3 +71,30 @@ p{
     border-radius: 5px;
 }
 /* NAVBAR */
+
+/* HEADER SHOWCASE */
+#showcase{
+    background:#333 url("../img/showcase.jpg") center center/cover no-repeat ;
+    height:100vh;
+    color:#fff;
+    position: relative;
+   
+}
+#showcase .showcase-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 100%;
+    padding:0 2rem;
+    /* overlay */
+    position: absolute;
+    top:0px;
+    bottom:0px;
+    right: 0px;
+    left:0px;
+    background-color:rgba(0,0,0,0.4);
+    /* overlay */
+}
+/* HEADER SHOWCASE */
