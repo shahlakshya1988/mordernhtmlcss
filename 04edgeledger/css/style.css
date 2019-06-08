@@ -67,6 +67,32 @@ p{
 .py-3{
     padding:3rem 0;
 }
+.p-1{
+    padding:1.5rem;
+}
+.p-2{
+    padding:2rem;
+}
+.p-3{
+    padding:3rem;
+}
+.bg-light{
+    background:#f4f4f4;
+    color:#333;
+}
+.bg-dark{
+    background:#333;
+    color:#f4f4f4;
+}
+.list{
+    list-style: none;
+    padding:0;
+    margin:0.5rem 0;
+}
+.list li{
+    padding:0.5rem 0;
+    border-bottom:#444 dotted 1px;
+}
 /* UTILITY CLASSES */
 /* NAVBAR */
 #navbar{
@@ -138,3 +164,27 @@ p{
     margin-bottom:1rem;
 }
 /* SECTION WHAT WE DO */
+/* SECTION WHO WE ARE */
+#who{
+    display: flex;
+}
+#who div{
+    flex:1;
+}
+#who .who-img{
+    background:url("../img/people.jpg") no-repeat center center/cover;
+
+}
+
+/* SECTION WHO WE ARE */
+
+/* clients */
+#clients .items{
+    display: flex;
+}
+#clients .items img{
+    display: block;
+    margin:auto;
+    width:60%;
+}
+/* clients */
