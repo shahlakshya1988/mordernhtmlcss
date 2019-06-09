@@ -12,7 +12,7 @@ window.addEventListener('scroll',function(){
         document.querySelector("#navbar").style.opacity=1;
     }
 });
-$("#navbar a,.btn").on("click",function(event){
+$("#navbar a,.showcase-content .btn").on("click",function(event){
   event.preventDefault();
   if(this.hash != ''){
     const hash = this.hash;
