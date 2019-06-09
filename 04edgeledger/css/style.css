@@ -58,6 +58,10 @@ p{
     background:#333;
     color:#fff;
 }
+.bg-primary{
+    background:#93cb52;
+    color:#fff;
+}
 .py-1{
     padding:1.5rem 0;
 }
@@ -188,3 +192,23 @@ p{
     width:60%;
 }
 /* clients */
+/* contact  */
+#contact{
+    display: flex;
+}
+#contact .contact-form,
+#contact .map{
+    flex:1;
+}
+#contact .contact-form .form-group{
+    margin:0.75rem;
+}
+#contact .contact-form label{
+    display: block;
+}
+#contact .contact-form input,
+#contact .contact-form textarea{
+    width:100%;
+    padding:0.5rem;
+}
+/* contact  */
