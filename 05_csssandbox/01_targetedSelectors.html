@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Targeted Selectors</title>
+    <style>
+        div p{
+            background:#ddd;
+        }
+        div>p{
+            background:green;
+        }
+        div + p{
+            background:blue;
+            color:white;
+        }
+        div + p + p{
+            background:red;
+            color:white;
+        }
+        a[target]{
+            background:green;
+        }
+        a[target="_blank"]{
+            background:yellow;
+        }
+        input[name='name']{
+            background:yellow;
+        }
+        input[name='email']{
+            display: inline-block;
+            width:100%;
+        }
+
+
+    </style>
+</head>
+<body>
+    <div>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eaque, id.</p>
+        <ul>
+            <li>Item 1</li>
+            <li><p>Item 2</p></li>
+            <li>Item 3</li>
+        </ul>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Et assumenda aspernatur minima architecto consequatur labore eligendi non nesciunt quos facere!</p>
+    </div>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores natus est suscipit molestias ut magnam illum dolore porro! Molestiae dignissimos commodi quaerat a quo qui quia vero? Eaque corporis sit est provident iusto amet porro, nisi illum qui hic, consequatur facilis possimus ratione rem quod! Nemo consequatur dolorum dolore quas.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores natus est suscipit molestias ut magnam illum dolore porro! Molestiae dignissimos commodi quaerat a quo qui quia vero? Eaque corporis sit est provident iusto amet porro, nisi illum qui hic, consequatur facilis possimus ratione rem quod! Nemo consequatur dolorum dolore quas.</p>
+    <a href="#">Page 1</a>
+    <a href="#" target="_self">Page 2</a>
+    <a href="https://www.google.com" target="_blank">Google</a>
+    <br>
+    <br>
+    <br>
+    <form action="">
+        <input type="text" name="name" id="">
+        <input type="text" name="email" id="">
+        <input type="text" name="password" id="">
+    </form>
+</body>
+</html>
