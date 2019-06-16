@@ -69,3 +69,32 @@ body{
 	background:#f4f4f4;
 	color:#333;
 }
+
+/*** animate landing page ***/
+#page-1 h1{
+	transform:translateY(-100vh);
+	animation-name:headder;
+	animation-duration:var(--animate-speed);
+	animation-fill-mode:forwards;
+
+}
+#page-1 p{
+	transform:translateX(-100vw);
+	animation-name:paragraph;
+	animation-duration:var(--animate-speed);
+	animation-fill-mode:forwards;
+	animation-delay:var(--animate-speed);
+}
+@keyframes headder{
+	to{
+			transform:translateY(0);
+	
+	}
+}
+@keyframes paragraph{
+	to{
+		transform:translateX(0);
+	}
+}
+
+/*** animate landing page ***/
