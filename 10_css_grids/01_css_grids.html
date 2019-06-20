@@ -2,20 +2,25 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>Css Grid Rows</title>
+	<title>Css Grids Columns</title>
 	<style>
+		*{
+			margin:0;
+			padding:0;
+			box-sizing: border-box;
+		}
 		.grid{
 			display: grid;
-			grid-template-rows: 1fr 2fr 3fr 4fr;
-			grid-auto-rows: 1fr;
-			grid-template-columns: repeat(2,1fr);
-			grid-gap: 1rem;
+			grid-template-columns: 200px auto 200px;
+			grid-template-columns: 200px repeat(4,auto);
+			grid-template-columns: 1fr 3fr 1fr 1fr;
+			grid-gap:1rem;
 		}
 		.item{
 			padding:3rem;
-			background:#f4f4f4;
 			border:1px solid #ccc;
-			font-size:3rem;
+			background:#f4f4f4;
+			font-size:1.3rem;
 			font-weight: bold;
 			text-align: center;
 		}
@@ -35,6 +40,9 @@
 		<div class="item">Item 10</div>
 		<div class="item">Item 11</div>
 		<div class="item">Item 12</div>
+		<div class="item">Item 13</div>
+		<div class="item">Item 14</div>
+		<div class="item">Item 15</div>
 	</div>
 </body>
 </html>
